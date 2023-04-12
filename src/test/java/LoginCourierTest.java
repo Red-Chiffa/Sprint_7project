@@ -69,7 +69,7 @@ public class LoginCourierTest {
     }
 
     @Test
-    public void wrongPassworLoginCourier (){
+    public void wrongPasswordLoginCourier (){
         given()
                 .header("Content-type", "application/json")
                 .body("{\"login\": \"Lex\", \"password\": \"WrongPassword\"}")
